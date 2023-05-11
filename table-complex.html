@@ -11,29 +11,34 @@
 
 <caption> Produzido X Vendidos por loja!</caption>
 <thead>
+    <colgroup> 
+        <col style="background-color: rgb(155, 215, 255);">
+        <col style="background-color:rgb(240, 240, 142);" span="2"> 
+        <col style="background-color: rgb(129, 202, 110);"span="2">
+    </colgroup>
     <tr> 
         <th> Produtos </th>
         <th colspan="2"> Americanas </th>
         <th colspan="2"> Casas bahia </th>
     </tr>
 </thead>
-<tbody>
     <tr>
         <td> </td>
-        <td> Produzidos</td>
-        <td> Vendidos </td>
-        <td> Produzidos</td>
-        <td> Vendidos </td>
+        <th scope="col"> Produzidos</th>
+        <th scope="col"> Vendidos </th>
+        <th scope="col"> Produzidos</th>
+        <th scope="col"> Vendidos </th>
     </tr>
+    <tbody>
     <tr> 
-        <td> Telefones</td>
+        <th scope="row"> Telefones</th>
         <td> 100 </td>
         <td> 75 </td>
         <td> 120 </td>
         <td> 90 </td>
     </tr>
     <tr>
-        <td> Computador</td>
+        <th scope="row"> Computador</td>
         <td> 290 </td>
         <td> 140 </td>
         <td> 220 </td>
@@ -41,12 +46,12 @@
     </tr>
 </tbody>
 <tfoot>
-    <td>Produtos não vendidos.</td>
+    <th>Produtos não vendidos.</th>
     <td colspan="2"> 150 </td>
     <td colspan="2"> 140 </td>
 </tfoot>
 
     </table>
-<br>  
+<br>      
 </body>
 </html>
